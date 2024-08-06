@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table {
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+      }
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: center;
+      }
+      th {
+        background-color: rgb(165, 243, 87);
+      }
+      .grid-container{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+      }
+      .habits {
+        background-color:darkgray;
+        color:rgb(232, 239, 239);
+        margin:10px;
+        padding:50px
+      }
+      </style>
+  </head>
+  <title>Vasthavika basic html web page</title>
+  <link rel="icon" type="image/x-icon" href="vasu.jpg">
+   <body>
+    <h1 style="color:black; font-size: 50px; background-color: rgb(156, 137, 230); font-family:'Courier New', Courier, monospace; text-align: center;" >Vasthavika durgam</h1>
+    <p style="background-color: rgb(255, 99, 71, 0.2); border: 2px violet; font-size: 50px;">vasu.......</p>
+    <a href="https://www.w3schools.com">Vasthavika</a>
+    <br>
+    <img src="vasu.jpg" alt="Snow white" width="600" height="500">
+    <pre><i>
+      My Name is vasthavikadurgam.
+      I am an under graduate student.
+      I have secured 75 percentage.
+      </i>
+   </pre>
+   <address>3-25/b<br>Mdl:Thimmapur<br>city:Karimnagar<br>nallagonda, sahebupalle</address>
+   <a href="basic.html"><img src="vasu.jpg" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+   <button onclick="document.location='basic.html'">click me</button>
+    <h2 style= "text-align: center">Study</h2>
+    <table>
+      <tr>
+        <th>school/college</th>
+        <th>percentage</th>
+        <th>passed out year</th>
+      </tr>
+      <tr>
+        <td>Kendriya vidhyalaya Karimnagar</td>
+        <td>99%</td>
+        <td>2011-2017</td>
+      </tr>
+      <tr>
+        <td>TS Model school thimmapur, Karimnagar</td>
+        <td>95%</td>
+        <td>2018-2020</td>
+      </tr>
+      <tr>
+        <td>Jyothishmathi group of institutions and technological sciences</td>
+        <td>80%</td>
+        <td>2020-2024</td>
+      </tr>
+    </table>
+    <h2 style="color: rgb(223, 195, 228); text-align: center;"> My sweet family</h2>
+    <div class="grid-container">
+    <div style="background-color:#FFF4A3;">
+    <h2>My dad</h2>
+    <p>i love my dad very much.</p>
+    <p>He is currently working in court</p>
+    <p>i wanna spend a lot of time with him</p>
+    <p>but, he often got busy in his office work</p>
+    </div>
+    <div style="background-color:#FFC0C7;">
+    <h2>My lovely mom</h2>
+    <p>She is the sweetest one</p>
+    <p>i often argue with her</p>
+    <p>she is a farmer and a house keeper</p>
+    </div>
+    <div style="background-color:#D9EEE1;">
+    <h2>My brother</h2>
+    <p>ummm! i cannot describe about him in one word</p>
+    <p>He is most silent tom</p>
+    <p>we fight occasionally...</p>
+    </div>
+    </div>
+    <div class="habits">
+      <h2>my habits</h2>
+      <ol>
+        <li>Playing chess game</li>
+        <li>reading books</li>
+        <li>riding scooty</li>
+        <li>all indoor and outdoor games</li>
+        <li>scrolling socail media</li>
+      </ol>
+    </div>
+    <h1 id="vasu">How are you?</h1>
+    <button onclick="chitti()"> Click on me</button>
+    <script>
+      function chitti() {
+        document.getElementById("vasu").innerHTML = "Dear comrade";
+      }
+    </script>
+    <h2 style="text-align: center;">hey dont open its my resume!</h2>
+    <iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+    <p><a href="file:///C:/Users/durga/Desktop/html/basic.html" target="iframe_a">click here to open resume></a></p>
+    <h1>My  script </script></h1>
+    <button type="button" onclick="myfunction()">Arey evvar ayna click cheyyandra babu</button>
+    <p id="chitti">HEy i will show you magic</p>
+    <script>
+      function myfunction() {
+        document.getElementById("chitti").innerHTML = "booommmm! this is magic"
+      }
+    </script>
+    <ul class="horizontal-list"> 
+      <li>Item 1</li> <li>Item 2</li> <li>Item 3</li> 
+    </ul>
+    </body>
+</html>
